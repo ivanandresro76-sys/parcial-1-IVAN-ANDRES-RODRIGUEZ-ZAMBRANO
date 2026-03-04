@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class parcial{
+public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+}
+public objregistro[][] ingresarVentas(objregistro[][]){
+    double ventastotales=o;
+    for(i=0; i<objregistro.length; i++){
+        objregistro o = new objregistro();
+        System.out.print("ingrese el mes");
+        o.setmes(mes=sc.next(););
+        if(mes=="Abril" || mes=="abril"){
+        System.out.print("ingrese el dia");
+        o.setdia(dia=sc.nextInt(););
+        System.out.print("ingrese la venta del dia");
+        o.setventas(ventas=nexDouble(););
+        objregistro[1][0]=(mes+" "+dia+" "+ventas);
+        }else{
+            System.out.print("las ventas no corresponden al mes de Abril por favor vuelba a ingresar los datos");
+        }
+        ventastotales=ventastotales+ventas;
+    }
+    mostrarventas(ventastotales,objregistro);
+
+}public static void mostrarventas(double ventastotales,objregistro[][]){
+    for(int j=0; j.objregistro.length; j++){
+        System.out.println(objregistro[i][0]);
+    }
+    System.out.println(ventastotales);
+}
+}

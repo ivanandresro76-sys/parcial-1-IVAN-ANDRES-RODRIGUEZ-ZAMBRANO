@@ -1,0 +1,21 @@
+public class constructor{
+    private String mes=0;
+    private int dia=0;
+    private double ventas=0;
+}public class constructor(String mes, int dia, double ventas){
+    this.mes=mes;
+    this.dia=dia;
+    this.ventas=ventas;
+}public String getmes(){
+    return mes;
+}public int getdia(){
+    return dia;
+}public double getventas(){
+    return ventas;
+}public static Staing setmes(String mes){
+    this.mes=mes;
+}public static int setdia(int dia){
+    this.dia=dia;
+}public static double setventas(){
+    this.ventas=ventas;
+}
